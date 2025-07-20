@@ -261,14 +261,50 @@
           transparent
         );
     }
-    @media (max-width: 767px) {
-      header {
-        position: static !important;
-      }
-      #home-section {
-        padding-top: 80px;
-      }
-      .profile-img {
-        margin-top: 10px;
-      }
-    }
+  /* Orange footer styling */
+.footer {
+  background-color: #101010;
+  color: #fff;
+  padding-top:20px;
+  font-size: 1rem;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.footer h5 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.footer p {
+  margin-bottom: 0.5rem;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.3s;
+}
+
+
+.footer-link:hover {
+  color: #ffe0b2; /* Light orange */
+  text-decoration: underline;
+}
+
+.footer hr {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive tweaks */
+@media (max-width:767.98px ) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer .text-md-end {
+    text-align: center !important;
+    margin-top: 1rem;
+  }
+}

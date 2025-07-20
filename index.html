@@ -7,7 +7,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Poppins:700,400&display=swap" rel="stylesheet">
+  
   
 </head>
 <body>
@@ -26,11 +28,11 @@
               A r <span class="stretch-o"></span> m a l
             </span>
           </h1>
-          <p class="name"> Web Development | Static Web Page | BCA</p>
+          <p class="name"> Web Development |  Web Page | BCA</p>
           <p>
             Welcome to my professional portfolio. I’m a dedicated web developer and student with a strong interest in both static website design and full-stack development. I work with HTML, CSS, JavaScript, Node.js, and MongoDB to build clean front-end designs and functional back-end systems. I enjoy learning new things and aim to create real-world projects that improve my skills.
           </p>
-          <a href="#contact-section" class="btn btn-info btn-lg mt-3 text-white"style="color:#000000">Contact Me</a>
+          <a href="#contact-section" class="btn btn-info btn-lg mt-3 text-white"style="color:#0d6efd">Contact Me</a>
         </div>
       </div>
     </div>
@@ -50,7 +52,7 @@
             <i class="fas fa-bullhorn display-1"></i>
             <div class="card-body">
               <h5 class="card-title">Marketing Service</h5>
-              <p class="card-text">Strategic marketing solutions to boost your brand visibility and reach your target audience effectively.</p>
+              <p class="card-text">We are supported by an associated marketing team. </p>
             </div>
           </div>
         </div>
@@ -65,42 +67,14 @@
         </div>
         <div class="col-md-4">
           <div class="card p-4 h-100 text-center">
-            <i class="fas fa-briefcase display-1"></i>
+            <i class="fas fa-laptop-code display-1"></i>
             <div class="card-body">
-              <h5 class="card-title">Business Consulting</h5>
-              <p class="card-text">Professional business advice to help you grow, optimize, and scale your company for success.</p>
+                <h5 class="card-title">Service</h5>
+                <p class="card-text">We specialize in designing and developing visually appealing web pages.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card p-4 h-100 text-center">
-            <i class="fas fa-lightbulb display-1"></i>
-            <div class="card-body">
-              <h5 class="card-title">Branding</h5>
-              <p class="card-text">Creative branding strategies to make your business stand out in a competitive market.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card p-4 h-100 text-center">
-            <i class="fas fa-chart-line display-1"></i>
-            <div class="card-body">
-              <h5 class="card-title">Sales</h5>
-              <p class="card-text">Result-driven sales techniques to increase your revenue and expand your customer base.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card p-4 h-100 text-center">
-            <i class="fas fa-user-tie display-1"></i>
-            <div class="card-body">
-              <h5 class="card-title">Business Developer</h5>
-              <p class="card-text">Identifying new business opportunities and building strong partnerships for sustainable growth.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        
   </section>
 
   <section id="education-section">
@@ -126,7 +100,7 @@
             <i class="fas fa-laptop-code display-1"></i>
             <div class="card-body">
               <h5 class="card-title">IT Certifications</h5>
-              <p class="card-text">Earned certifications in IT consulting, digital marketing, and project management.</p>
+              <p class="card-text">Earned certifications in Cyber Security,Web designing</p>
             </div>
           </div>
         </div>
@@ -135,7 +109,7 @@
             <i class="fas fa-certificate display-1"></i>
             <div class="card-body">
               <h5 class="card-title">Workshops & Seminars</h5>
-              <p class="card-text">Attended various workshops on branding, sales, and entrepreneurship.</p>
+              <p class="card-text">Attended various workshops on AI,Machine learning.</p>
             </div>
           </div>
         </div>
@@ -144,7 +118,7 @@
             <i class="fas fa-book-open display-1"></i>
             <div class="card-body">
               <h5 class="card-title">Online Courses</h5>
-              <p class="card-text">Completed online courses in business analytics, leadership, and innovation.</p>
+              <p class="card-text">Completed online course in Cyber Security.</p>
             </div>
           </div>
         </div>
@@ -162,7 +136,7 @@
             <i class="fas fa-language display-1"></i>
             <div class="card-body">
               <h5 class="card-title">Language Proficiency</h5>
-              <p class="card-text">Fluent in English, Malayalam</p>
+              <p class="card-text"> English, Malayalam</p>
             </div>
           </div>
         </div>
@@ -170,40 +144,86 @@
     </div>
   </section>
 
-  <section id="contact-section">
-    <div class="container">
-      <div class="card shadow-sm" style="border-radius: 15px;">
-        <div class="card-header">
-          <h4 class="mb-0"style="color: black">Contact Me</h4>
+<section id="contact-section" class="container py-5">
+  <h2 class="text-center mb-4 text-dark">Contact Me</h2>
+
+  <div class="row">
+    <div class="col-md-5 mb-4">
+        
+    <div class="col-md-7">
+      <form id="submit-form" action="">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
         </div>
-        <div class="card-body">
-          <p class="mb-3">
-            <i class="bi bi-instagram me-2" style="color: #e1306c;"></i>
-            <strong>Instagram:</strong>
-            <a href="https://instagram.com/awromal" target="_blank">aromal sreekumar</a>
-          </p>
-          <p class="mb-3">
-            <i class="bi bi-envelope-fill me-2" style="color: var(--accent2);"></i>
-            <strong>Email:</strong>
-            <a href="mailto:your.email@example.com">aromal2006sree@gmail.com</a>
-          </p>
-          <p class="mb-0">
-            <i class="bi bi-telephone-fill me-2" style="color: #28a745;"></i>
-            <strong>Mobile:</strong> <span style="color: var(--accent1);">+91 7012011756</span>
-          </p>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
         </div>
+
+        <div class="mb-3">
+          <label for="mobile" class="form-label">Mobile:</label>
+          <input type="tel" class="form-control" id="mobile" name="mobile" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="message" class="form-label">Message:</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-secondary">Send</button>
+      </form>
+    </div>
+
+    
+    
+  </div>
+</section>
+
+
+
+<footer class="footer text-white">
+  <div class="container py-4">
+    <div class="row">
+      <div class="col-md-6 mb-3 mb-md-0">
+        <h5>About Me</h5>
+        <p>I’m a passionate web developer creating clean and user-friendly websites.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <h5>Follow Me</h5>
+        <a href="https://instagram.com/awromal" class="footer-link">Instagram</a> |
+        <a href="https://linkedin.com/in/yourprofile" class="footer-link">LinkedIn</a> |
+        <a href="tel:+91 7012011756" class="footer-link">Call Me</a>
       </div>
     </div>
-  </section>
+    <hr class="my-3">
+    <p class="text-center mb-0">&copy; 2025 Aromal Sreekumar. All Rights Reserved.</p>
+  </div>
+</footer>
 
-  <footer class="footer text-center">
-    <div class="container">
-      <p class="mb-0">&copy; 2024 Aromal Sreekumar. All rights reserved.</p>
-    </div>
-  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/4f7f0e7aa6.js" crossorigin="anonymous"></script>
+<script>
+    $("#submit-form").submit((e) => {
+        e.preventDefault();
+        $.ajax({
+            url: "https://script.google.com/macros/s/AKfycbylsERqyVkLYHd7lhzhESGgTwZCnRqa8PVL8i3QaZ7sI4oizXC5B-WqL_JtUXexMuEipg/exec",
+            data: $("#submit-form").serialize(),
+            method: "POST",
+            success: function (response) {
+                alert("Form submitted successfully!");
+                window.location.reload();
+            },
+            error: function (xhr, status, error) {
+                console.error("Error:", xhr.responseText || error);
+                alert("Something went wrong. Check the console for details.");
+            }
+        });
+    });
+</script>
+
 </body>
 </html>
